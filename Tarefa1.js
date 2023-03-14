@@ -5,7 +5,7 @@ const convertedValueF = document.getElementById('convertedValueF')
 const convertedValueC = document.getElementById('convertedValueC')
 
 //----- CELCIUS TO FAHRENHEIT-----
-document.getElementById('ConvertFBtn').addEventListener('click', function (){
+CelciusToF.addEventListener('input', function (){
     
     if (CelciusToF.value !== '' ) {
 
